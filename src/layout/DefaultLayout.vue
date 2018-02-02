@@ -20,7 +20,7 @@
 	import FooterPartial from '@/partials/FooterPartial'
 	export default{
 		name: 'DefaulLayout',
-		component{
+		components:{
 			HeaderPartial,
 			FooterPartial
 		}

@@ -1,11 +1,13 @@
 <template>
-	<div>
-		<h1>Home</h1>
-	</div>
+	<default-layout></default-layout>
 </template>
 <script>
+	import DefaultLayout from '@/layout/DefaultLayout'
 	export default{
-		name:'HomeView'
+		name:'HomeView',
+		components:{
+			DefaultLayout
+		}
 	}
 </script>
 <style></style>
