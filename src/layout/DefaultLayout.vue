@@ -3,6 +3,9 @@
 		<!--Header-->
 		<header-partial></header-partial>
 		<!--End Header-->
+		<!--Filter section-->
+		<slot name="filters"></slot>
+		<!--End Filter section-->
 		<!--Main-->
 		<main class="main-section mb-5">
 			<div class="container">
