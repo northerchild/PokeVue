@@ -51,7 +51,8 @@
 			goToDetail(pokemon){
 				this.$router.push({
 					params:{
-						pokemonName: pokemon.slug
+						pokemonName: pokemon.slug,
+						pokemon
 					},
 					name: 'DetailPokemon'
 				})
